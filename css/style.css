@@ -226,10 +226,6 @@ body{
     margin: 24px 0;
 }
 .sale-bg-img{
-    width: 440px;
-    height: 440px;
-    background: url('../images/akademnashr-sale-img.png');
-    background-size: cover;
     margin-top: -85px;
     margin-right: 64px;
 }
