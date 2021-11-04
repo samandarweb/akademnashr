@@ -168,8 +168,8 @@ body{
     height: 340px;
     height: 245px;
 }
-.feaures_item:not(:last-child){
-    margin-right: 40px;
+.feaures_item:not(:first-child){
+    margin-left: 40px;
 }
 .feaures_image{
     width: 100px;
@@ -191,4 +191,44 @@ body{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.5px;
+}
+/* sale-bg section */
+.sale-bg{
+    margin-top: 120px;
+    margin-bottom: 160px;
+}
+.sale-bg_container{
+    width: 1100px;
+    height: 419px;
+    background: #252420;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sale-bg_content{
+    margin: 64px;
+}
+.sale-bg_title{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+.sale-bg_text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5s;
+    color: #fff;
+    margin: 24px 0;
+}
+.sale-bg-img{
+    width: 440px;
+    height: 440px;
+    background: url('../images/akademnashr-sale-img.png');
+    margin-top: -85px;
+    margin-right: 64px;
 }
