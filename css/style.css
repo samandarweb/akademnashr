@@ -55,6 +55,7 @@ body{
     text-transform: uppercase;
     color: #000;
     margin-right: 32px;
+    transition: 0.2s;
 }
 .nav-list-item:hover{
     color: #ff7500;
@@ -76,6 +77,7 @@ body{
     line-height: 15px;
     letter-spacing: 0.5px;
     text-decoration: none;
+    transition: 0.5s;
     
 }
 .nav-list_cta:hover{
@@ -83,4 +85,63 @@ body{
 }
 .nav-list_cta:active{
     opacity: 0.6;
+}
+/* main */
+/* hero section */
+.hero{
+    background: #252420;
+    height: 488px;
+    
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.hero-content{
+    width: 387px;
+    height: 328px;
+    margin: 80px 0;
+}
+.hero-line{
+    width: 80px;
+    height: 3px;
+    background: #FF7500;;
+}
+.hero-title{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+.hero-text{
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 44px;
+}
+.hero-btn{
+    padding: 12px 24px;
+    background: #FF7500;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.hero-btn:hover{
+    opacity: 0.8;
+}
+.hero-btn:active{
+    opacity: 0.6;
+}
+.hero-img{
+    margin-top: 40.81px;
 }
