@@ -145,3 +145,50 @@ body{
 .hero-img{
     margin-top: 40.81px;
 }
+/* feaures section */
+.feaures{
+    height: 936px;
+    background: #fff;
+    padding: 210px 0;
+}
+.feaures-title{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 86px;
+    letter-spacing: 0.5px;
+}
+.feaures-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 72px;
+}
+.feaures_item{
+    height: 340px;
+    height: 245px;
+}
+.feaures_item:not(:last-child){
+    margin-right: 40px;
+}
+.feaures_image{
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 117, 0, 0.2);
+    padding: 25px;
+    border-radius: 50%;
+}
+.feaures-item_title{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    margin: 12px 0;
+}
+.feaures-item_text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
